@@ -11,7 +11,7 @@ module VagrantPlugins
       description "Atomic Host guest support."
 
       guest("atomic", "redhat") do
-        require File.expand_path("../", __FILE__)
+        require File.expand_path("../guest", __FILE__)
         Guest
       end
 
