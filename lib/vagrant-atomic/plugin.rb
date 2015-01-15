@@ -1,4 +1,8 @@
-require "vagrant"
+begin
+  require 'vagrant'
+rescue LoadError
+  raise 'The vagrant-atomic plugin must be run within Vagrant.'
+end
 
 module VagrantPlugins
   module GuestAtomic
