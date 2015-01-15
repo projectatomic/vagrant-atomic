@@ -56,19 +56,6 @@ module VagrantPlugins
           logger = nil
         end
       end
-
-#shouldn't need these as I inherit
-      # guest_capability("atomic", "register") do
-      #   require_relative "cap/register"
-      #   Cap::Register
-      # end
-  
-      # guest_capability("atomic", "unregister") do
-      #   require_relative "cap/unregister"
-      #   Cap::Unregister
-      # end
-
-
     end
   end
 end
