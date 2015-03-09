@@ -20,11 +20,6 @@ module VagrantPlugins
         Cap::ChangeHostName
       end
 
-      guest_capability("atomic", "configure_networks") do
-        require_relative "cap/configure_networks"
-        Cap::ConfigureNetworks
-      end
-
       guest_capability("atomic", "docker_daemon_running") do
         require_relative "cap/docker"
         Cap::Docker
