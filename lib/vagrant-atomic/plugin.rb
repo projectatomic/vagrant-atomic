@@ -10,7 +10,7 @@ module VagrantPlugins
       name "Atomic Host guest"
       description "Atomic Host guest support."
 
-      guest("atomic", "redhat") do
+      guest("atomic", "fedora") do
         require File.expand_path("../guest", __FILE__)
         Guest
       end
