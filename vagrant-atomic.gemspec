@@ -12,7 +12,6 @@ Gem::Specification.new do |s|
   s.description   = "Enables the Project Atomic OS (http://projectatomic.io) as a guest for vagrant. Tested with Fedora Atomic and RHEL Atomic"
 
   s.required_rubygems_version = ">= 1.3.6"
-  s.rubyforge_project         = "vagrant-atomic"
 
   # this gemspec is, and parsing out the ignored files from the gitignore.
   # Note that the entire gitignore(5) syntax is not supported, specifically
