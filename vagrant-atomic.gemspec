@@ -6,14 +6,13 @@ Gem::Specification.new do |s|
   s.version       = VagrantPlugins::GuestAtomic::VERSION
   s.platform      = Gem::Platform::RUBY
   s.license       = "GPL-2.0"
-  s.authors       = ["Langdon White", "et al"]
+  s.authors       = ["Langdon White", "Josef Strzibny", "et al"]
   s.email         = "langdon@fedoraproject.org"
-  s.summary       = "Enables the Project Atomic OS (http://projectatomic.io) as a guest for vagrant"
-  s.description   = "Enables the Project Atomic OS (http://projectatomic.io) as a guest for vagrant. Tested with Fedora Atomic and RHEL Atomic"
+  s.summary       = "Project Atomic guest for Vagrant"
+  s.description   = "Adds the Project Atomic OS (http://projectatomic.io) as a guest for Vagrant. Tested with Fedora Atomic and RHEL Atomic."
   s.homepage      = "https://github.com/projectatomic/vagrant-atomic"
   s.required_rubygems_version = ">= 1.3.6"
 
-  # this gemspec is, and parsing out the ignored files from the gitignore.
   # Note that the entire gitignore(5) syntax is not supported, specifically
   # the "!" syntax, but it should mostly work correctly.
   root_path      = File.dirname(__FILE__)
