@@ -1,3 +1,6 @@
+Not relevant anymore as it comes with standard Vagrant now.
+See https://github.com/mitchellh/vagrant/pull/5847.
+
 vagrant-atomic
 ==============
 
